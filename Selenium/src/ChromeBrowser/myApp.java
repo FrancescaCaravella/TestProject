@@ -65,7 +65,7 @@ public class myApp {
 			public void actionPerformed(ActionEvent e) {
 
 				LaunchChrome launch = new LaunchChrome();
-				launch.main();
+				launch.chrome();
 			}
 		});
 		btnNewButton.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 16));
