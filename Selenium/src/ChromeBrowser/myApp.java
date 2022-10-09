@@ -54,7 +54,7 @@ public class myApp {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 749, 527);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		JButton btnNewButton = new JButton("SEARCH");
 		btnNewButton.setMargin(new Insets(2, 2, 2, 2));
 		btnNewButton.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
@@ -63,7 +63,7 @@ public class myApp {
 		btnNewButton.setBackground(new Color(0, 128, 255));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+
 				LaunchChrome launch = new LaunchChrome();
 				launch.main();
 			}
@@ -71,8 +71,7 @@ public class myApp {
 		btnNewButton.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 16));
 		btnNewButton.setForeground(Color.BLACK);
 		frame.getContentPane().add(btnNewButton, BorderLayout.SOUTH);
-		
-		
+
 		JLabel lblNewLabel = new JLabel("CLICK ONCE THE SEARCH BUTTON TO NAVIGATE THE INTERNET");
 		lblNewLabel.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 18));
 		lblNewLabel.setForeground(SystemColor.textHighlight);
