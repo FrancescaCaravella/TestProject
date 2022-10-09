@@ -73,7 +73,7 @@ public class myApp {
 		frame.getContentPane().add(btnNewButton, BorderLayout.SOUTH);
 		
 		
-		JLabel lblNewLabel = new JLabel("CLICK ONCE THE SEARCH BUTTON TO NAVIGATE INTERNET");
+		JLabel lblNewLabel = new JLabel("CLICK ONCE THE SEARCH BUTTON TO NAVIGATE THE INTERNET");
 		lblNewLabel.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 18));
 		lblNewLabel.setForeground(SystemColor.textHighlight);
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
